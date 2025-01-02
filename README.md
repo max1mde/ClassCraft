@@ -14,7 +14,7 @@
 ### Run It Already
 Paste this into your PowerShell:
 ```powershell
-Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/max1mde/ClassCraft/main/launcher.ps1").Content
+Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/max1mde/ClassCraft/main/src/launcher.ps1").Content
 ```
 Or you can paste this into:
 - Terminal (CMD)
@@ -22,8 +22,12 @@ Or you can paste this into:
 - The Path input in Windows Explorer
 - A Shortcut or Batch file
 ```bash
-powershell -Command "Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/max1mde/ClassCraft/main/launcher.ps1').Content"
+powershell -Command "Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/max1mde/ClassCraft/main/src/launcher.ps1').Content"
 ```
+
+You can also download the [launch.bat](launch.bat) file and run it.
+It will always use the latest version of the launcher directly from GitHub.
+
 No setups, no login, no waiting. Just Minecraft.
 
 **Disclaimer**: The launcher is not fully functional yet. It's still in development. There is no Microsoft login yet, and some versions like 1.21.x will not work.
