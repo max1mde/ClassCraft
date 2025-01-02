@@ -1,7 +1,9 @@
 <div align="center">
 <h1>The ClassCraft Launcher</h1>
 <h2>Launch Minecraft with One PowerShell Command</h2>
-<h3>Perfect for gaming at school, at work, or wherever life takes you. No pre-installed stuff, no installer, no hassle, just one command and you're mining diamonds. 🗿</h3>
+<h3>Perfect for gaming at school, at work, or wherever life takes you.</h3>
+<sup>Takes <b>less than a minute</b> to install and launch (Tested at 60 Mbps download speed).</sup><br>
+<sup>When run previously, in a few seconds.</sup>
 </div>
 
 ## 🏝️ Quick Start Guide
