@@ -16,19 +16,25 @@ Paste this into your PowerShell:
 ```powershell
 Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/max1mde/ClassCraft/main/launcher.ps1").Content
 ```
-Or Terminal:
+Or you can paste this into:
+- Terminal (CMD)
+- The pop-up that appears when pressing WIN + R
+- The Path input in Windows Explorer
+- A Shortcut or Batch file
 ```bash
 powershell -Command "Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/max1mde/ClassCraft/main/launcher.ps1').Content"
 ```
 No setups, no login, no waiting. Just Minecraft.
 
+**Disclaimer**: The launcher is not fully functional yet. It's still in development. There is no Microsoft login yet, and some versions like 1.21.x will not work.
+
 ---
 
 ## ✨ Why This Launcher Slaps
 
+- **Perfectly Hidden**: The launcher is discreetly stored in your AppData folder and hidden from the file explorer, ensuring complete privacy (aka it's hidden from your teacher).
 - **One Command, Infinite Fun**: Run it, and you’re ready to play. That’s it.
 - **No Extra Software**: No pre-installed nonsense. It’s clean, minimal, and efficient.
-- **Offline Mode**: Play even when the Wi-Fi gods are angry 😉.
 - **Sleek GUI**: Sleek GUI: Designed to look terrible (It’s just a PowerShell script; what did you expect?), but as the saying goes, MUSS NET SCHMEGGE, MUSS WIRKE! ~Markus Rühl
 - **DIY-Friendly**: Open-source for all your modding dreams.
 
