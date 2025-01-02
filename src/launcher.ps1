@@ -82,7 +82,7 @@ function Show-LoadingPopup {
 function Install-JavaRuntime {
     $javaExe = "$javaDir\bin\java.exe"
     if (-Not (Test-Path $javaExe)) {
-        $loadingForm = Show-LoadingPopup -Message "Installing Java Runtime Environment...`nThis may take a few minutes."
+        $loadingForm = Show-LoadingPopup -Message "Installing Java Runtime Environment...`nThis may take a bit."
         
         $javaUrl = "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_x64_windows_hotspot_21.0.2_13.zip"
         $javaZip = "$installDir\jre.zip"
@@ -244,7 +244,7 @@ $form | Add-Member -MemberType NoteProperty -Name launchButton -Value $null
 $form | Add-Member -MemberType NoteProperty -Name progressBar -Value $null
 $form | Add-Member -MemberType NoteProperty -Name statusLabel -Value $null
 
-$form.Text = "Minecraft Launcher"
+$form.Text = "ClassCraft"
 $form.Size = New-Object System.Drawing.Size(800, 450)
 $form.StartPosition = "CenterScreen"
 $form.BackColor = [System.Drawing.Color]::FromArgb(30, 30, 30)
