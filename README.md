@@ -18,7 +18,7 @@ Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/max
 ```
 Or Terminal:
 ```bash
-powershell -File "https://raw.githubusercontent.com/max1mde/ClassCraft/main/launcher.ps1"
+powershell -Command "Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/max1mde/ClassCraft/main/launcher.ps1').Content"
 ```
 No setups, no login, no waiting. Just Minecraft.
 
