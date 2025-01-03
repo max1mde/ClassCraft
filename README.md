@@ -1,7 +1,7 @@
 <div align="center">
 <h1>ClassCraft - Proof of Concept</h1>
 <h2>Launch Minecraft with a single PowerShell Command</h2>
-<h3>Perfect for gaming at school, at work, or wherever life takes you.</h3>
+<h3>An educational project showcasing scripting and automation. Perfect for gaming at school, at work, or wherever life takes you.</h3>
 <sup>Takes <b>less than a minute</b> to install and launch (Tested at 60 Mbps download speed).</sup><br>
 <sup>When run previously, in a few seconds.</sup>
 </div>
@@ -30,9 +30,10 @@ powershell -Command "Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.gith
 You can also download the [launch.bat](launch.bat) file and run it.
 It will always use the latest version of the launcher directly from GitHub.
 
-No setups, no login, no waiting. Just Minecraft.
-
-**Disclaimer**: The launcher is not fully functional yet. It's still in development. There is no Microsoft login yet, and some versions like 1.21.x will not work.
+> [!IMPORTANT]  
+> This project is for educational purposes only.
+> It is not a production-grade launcher and lacks features such as Microsoft account login (for now).
+> Compatibility may vary.
 
 ---
 
