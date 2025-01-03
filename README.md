@@ -1,7 +1,7 @@
 <div align="center">
 <h1>ClassCraft - Proof of Concept</h1>
 <h2>Launch Minecraft with a single PowerShell Command</h2>
-<h3>An educational project showcasing scripting and automation. Perfect for gaming at school, at work, or wherever life takes you.</h3>
+<h3>An educational project showcasing the power of PowerShell. Perfect for school, work, or wherever life takes you.</h3>
 <sup>Takes <b>less than a minute</b> to install and launch (Tested at 60 Mbps download speed).</sup><br>
 <sup>When run previously, in a few seconds.</sup>
 </div>
