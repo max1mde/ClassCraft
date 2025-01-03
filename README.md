@@ -42,7 +42,7 @@ It will always use the latest version of the launcher directly from GitHub.
 - **Perfectly Hidden**: The launcher is discreetly stored in your AppData folder and hidden from the file explorer, ensuring complete privacy (aka it's hidden from your teacher).
 - **One Command, Infinite Fun**: Run it, and you’re ready to play. That’s it.
 - **No Extra Software**: No pre-installed nonsense. It’s clean, minimal, and efficient.
-- **Sleek GUI**: Sleek GUI: Designed to look terrible (It’s just a PowerShell script; what did you expect?), but as the saying goes, MUSS NET SCHMEGGE, MUSS WIRKE! ~Markus Rühl
+- **Sleek GUI**: Designed to look terrible (It’s just a PowerShell script; what did you expect?), but as the saying goes, MUSS NET SCHMEGGE, MUSS WIRKE! ~Markus Rühl
 - **DIY-Friendly**: Open-source for all your modding dreams.
 
 ---
