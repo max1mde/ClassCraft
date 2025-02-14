@@ -16,7 +16,7 @@
 ### Run It Already
 Paste this into your PowerShell:
 ```powershell
-Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/max1mde/ClassCraft/main/src/launcher.ps1").Content
+iex (iwr "https://raw.githubusercontent.com/max1mde/ClassCraft/main/src/launcher.ps1").Content
 ```
 Or you can paste this into:
 - Terminal (CMD)
@@ -24,7 +24,7 @@ Or you can paste this into:
 - The Path input in Windows Explorer
 - A Shortcut or Batch file
 ```bash
-powershell -Command "Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/max1mde/ClassCraft/main/src/launcher.ps1').Content"
+powershell -c "iex (iwr 'https://raw.githubusercontent.com/max1mde/ClassCraft/main/src/launcher.ps1').Content"
 ```
 
 You can also download the [launch.bat](launch.bat) file and run it.
